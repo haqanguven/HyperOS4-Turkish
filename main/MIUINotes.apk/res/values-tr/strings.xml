@@ -2836,6 +2836,10 @@ Ses kaydetmek için notlar uygulamasına izin verin"</string>
     <string name="wearable_guide_notification_title">Saat ve bileklik kayıtları not oluşturabilir</string>
     <string name="wearable_guide_notification_title_band">Bileklik kayıtları not oluşturabilir</string>
     <string name="wearable_guide_notification_title_watch">Saat kayıtları not oluşturabilir</string>
+    <string name="web_error_title">İnternet sayfası açılamadı</string>
+    <string name="web_load_failed">Veri alınamadı. Lütfen ağ ayarlarınızı kontrol edin</string>
+    <string name="web_menu_my_feedback">Geri bildirim</string>
+    <string name="web_open_network_settings">Ağ ayarlarını görüntüle</string>
     <string name="web_sso_login_fail">Tekrar oturum açmanız gerekiyor</string>
     <string name="web_sso_login_message">Oturum açılıyor</string>
     <string name="webview_reload">Tekrar dene</string>
