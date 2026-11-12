@@ -14041,8 +14041,8 @@ Kelime eklemek için artı simgesine dokunun"</string>
     <string name="vibration_screen_purpose">Kullanıcıların cihazlarının titreşim ayarlarını özelleştirmelerine olanak tanır. Bu arama, bildirim, alarm, medya ve klavye için titreşimi açma veya kapatma seçeneklerini içerir</string>
     <string name="video_calling_settings_title">Operatör görüntülü görüşmesi</string>
     <string name="video_tool_box_title">Video araç kutusu</string>
-    <string name="view_face_privacy_policy">Devam etmeden önce https://privacy.mi.com/Facial-recognition %1$s Yüz verileri &amp; ekran kilidi gizlilik bildirimini okuyup kabul edin</string>
-    <string name="view_fingerprint_privacy_policy">Devam etmeden önce https://privacy.mi.com/setting-fingerprint %1$s Parmak izleri &amp; ekran kilidi gizlilik bildirimini okuyup kabul edin</string>
+    <string name="view_face_privacy_policy"><Data>Devam etmeden önce &lt;a href =https://privacy.mi.com/Facial-recognition/%1$s/>\"Yüz verileri &amp; ekran kilidi gizlilik bildirimi&lt;/a> metnini okuyun ve kabul edin</Data></string>
+    <string name="view_fingerprint_privacy_policy"><Data>Devam etmeden önce &lt;a href =https://privacy.mi.com/setting-fingerprint/%1$s/>"Parmak izleri &amp; ekran kilidi gizlilik bildirimi&lt;/a> metnini okuyun ve kabul edin</Data></string>
     <string name="view_saved_network">Görüntülemek için kaydedilmiş ağı seçin</string>
     <string name="vip_list">Gelen arama izinleri</string>
     <string name="vip_service_settings">Servislerim</string>

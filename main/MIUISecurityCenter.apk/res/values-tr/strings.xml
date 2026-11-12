@@ -1233,7 +1233,7 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. Onayınızı geri çekebilmek i�
     <string name="bubble_pickup_voice_print_auto">Ses kaydı yapılıyor</string>
     <string name="bubble_pickup_voice_print_auto_v2">Ses izi ve yüz verileri kaydediliyor</string>
     <string name="bubble_pickup_voice_print_success">Ses izi kaydedildi</string>
-    <string name="bubble_pickup_voice_print_success">Ses kaydı kaydedildi</string>
+    <string name="bubble_pickup_voice_print_success_v2">Ses izi ve yüz verileri kaydedildi</string>
     <string name="button_background_connection">İzin ver</string>
     <string name="button_block_calls_from_cantacts">Engeli kaldır</string>
     <string name="button_block_calls_from_strangers">Engeli kaldır</string>
@@ -2468,6 +2468,41 @@ gönüllüsü"</string>
     <string name="fmt_date_short_month_day">d MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
     <string name="fmt_date_short_year_month_day">d MMM, yyyy</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
+    <string name="fmt_date_year">yyyy</string>
+    <string name="fmt_time">T</string>
+    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">h:mm a</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
+    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
+    <string name="fmt_time_12hour_pm">ha</string>
+    <string name="fmt_time_24hour">"H 'o''clock'"</string>
+    <string name="fmt_time_24hour_minute">H:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
+    <string name="fmt_time_millis">"S'ms'"</string>
+    <string name="fmt_time_minute">"m'min'"</string>
+    <string name="fmt_time_minute_second">"m'min' s's'"</string>
+    <string name="fmt_time_minute_second_millis">"m'min' s.S's'"</string>
+    <string name="fmt_time_second">"s's'"</string>
+    <string name="fmt_time_second_millis">"s.S's'"</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_long">EEEE</string>
+    <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="fod_authentication_shift_button">İptal et</string>
     <string name="fod_button_finger">Parmak izi kullan</string>
     <string name="fod_button_password">Şifre girin</string>
@@ -2556,6 +2591,11 @@ gönüllüsü"</string>
     <string name="game_center_network_setting_tip_pad">Ayarlarda güvenliğin internete bağlanmasına izin verin</string>
     <string name="game_center_recommend">Önerilen</string>
     <string name="game_else_function">Diğer</string>
+    <string name="game_island_channel_name">Oyun bildirimleri</string>
+    <string name="game_island_click_enter_game">Oyunu açmak için dokunun</string>
+    <string name="game_island_enter_game">Aç</string>
+    <string name="game_island_revived">Yeniden doğdu</string>
+    <string name="game_island_reviving">Yeniden doğuyor</string>
     <string name="game_manual_record_setting_king">Ayarlar</string>
     <string name="game_manual_record_setting_peace">Ayarlar</string>
     <string name="game_manual_record_setting_setting">Ayarlar</string>
@@ -4257,19 +4297,19 @@ Veri kullanım istatistiklerini otomatik ayarla seçeneğini istediğiniz zaman 
     <string name="network_roaming_exception_tips">Dolaşım sırasında mobil veri kullanılarak ağa bağlanılamıyor</string>
     <string name="network_route_exception_detail">"Bağlanmış olduğunuz yönlendiricide bir sorun olabilir: 
  
-\""<b>1. Halka açık wifi ağ sorunları</b>"\"
+<b>1. Halka açık wifi ağ sorunları</b>
 Eğer halka açık bir wifi ağına bağlandıysanız ağa bağlı olan kullanıcı sayısı ağı yavaşlatıyor veya bağlantı sorunları oluşmasına neden oluyor olabilir. Başka bir ağa bağlanın ve ardından tekrar deneyin 
  
-\""<b>2. İnternet servis sağlayıcısı sorunları</b>"\"
+<b>2. İnternet servis sağlayıcısı sorunları</b>
 İnternet servis sağlayıcısı hesabınızda bir sorun olup olmadığından emin olun 
  
-\""<b>3. Yönlendirici donanım sorunları</b>"\"
+<b>3. Yönlendirici donanım sorunları</b>
 Yönlendiricinizin yönetici ayarlarını kontrol edin veya yönlendiricinizi yeniden başlatmayı deneyin 
  
-\""<b>4. Diğer yönlendirici sorunları</b>"\"
+<b>4. Diğer yönlendirici sorunları</b>
 Yönlendiriciniz ile birlikte gelen yönergeleri gözden geçirin ve yönlendiricinizi fabrika ayarlarına geri döndürün 
  
-\""<b>5. Yönlendiricinizin doğru şekilde çalıştığından ve bağlandığından emin olun</b>"\"
+<b>5. Yönlendiricinizin doğru şekilde çalıştığından ve bağlandığından emin olun</b>
 Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu değiştirmeyi deneyin. Eğer ev ağınızda bir sorun olduğundan şüpheleniyorsanız internet servis sağlayıcınızla iletişime geçin"</string>
     <string name="network_sim_exception_detail">"Sim kartınızda bir sorun olabilir: 
 
@@ -4505,6 +4545,10 @@ Yönlendiriciniz ile bağlantı için kullandığınız ethernet kablosunu deği
     <string name="open_physical_sim_self_detection_noti_title">Fiziksel SIM kontrolünü açın</string>
     <string name="open_right_now">Kırmızı zarfları derhal tut</string>
     <string name="open_right_now_short">Hemen kap</string>
+    <string name="open_screen_resolution_tip_cancel">İptal et</string>
+    <string name="open_screen_resolution_tip_content">Devam etmeden önce ayarlarda sistem ekran çözünürlüğünüzü WQHD+ olarak ayarlayın</string>
+    <string name="open_screen_resolution_tip_set">Ayarlar</string>
+    <string name="open_screen_resolution_tip_title">Dikkat</string>
     <string name="open_shut_down_password">Aç</string>
     <string name="open_wlan_title">Bu uygulamanın wifi ağını açıp kapatmasına izin ver</string>
     <string name="operator_location_settings">Taşıyıcıyı ve konumu ayarla</string>
@@ -4968,6 +5012,8 @@ kapat"</string>
     <string name="peep_protection_v2_cue_summary">Bu özellik yalnızca bu cihaz modeline özeldir</string>
     <string name="peep_protection_v2_deep_mode">Geliştirilmiş gizlilik</string>
     <string name="peep_protection_v2_deep_mode_desc">Ekranınızı başkalarının görüntülemesini zorlaştırın</string>
+    <string name="peep_protection_v2_enhanced_effect_summary">Ekran parlaklığını azaltarak ekranınızın başkaları tarafından görülmesini zorlaştırın</string>
+    <string name="peep_protection_v2_enhanced_effect_title">Gelişmiş gizlilik</string>
     <string name="peep_protection_v2_expert_mode_hint">"* Xiaomi Hyper XiaoAi'yi Pro moda geçirmeniz gerekmektedir"</string>
     <string name="peep_protection_v2_face_need_input_hint">Yüz verileri gereklidir</string>
     <string name="peep_protection_v2_first_close_message">Akıllı gizlilik ekranını Kontrol merkezi > Düzenle > Sistem geçişleri bölümünden ekleyerek hızlıca açıp kapatabilirsiniz</string>
@@ -5067,6 +5113,7 @@ Azaltılmış yan açı görünürlüğüne ek olarak, sistem, sizden başka bir
     <string name="peep_protection_v2_peep_island_action_dismiss_v2">Yoksay</string>
     <string name="peep_protection_v2_peep_island_subtitle_v2">Tekrar hatırlatma</string>
     <string name="peep_protection_v2_privacy_statement">Bu özellik bakış yönünü tespit etmek için yüz verilerini kullanır. Tüm veriler cihazınızda işlenir ve paylaşılmaz</string>
+    <string name="peep_protection_v2_recommend_skip">Şimdi değil</string>
     <string name="peep_protection_v2_recommend_title">Önerilen uygulamalar</string>
     <string name="peep_protection_v2_search_app">Uygulama gizlilik ekranı;uygulamalar için gizlilik ekranı</string>
     <string name="peep_protection_v2_search_empty_hint">Arama sonuçları burada görünecektir</string>
@@ -5090,9 +5137,11 @@ Azaltılmış yan açı görünürlüğüne ek olarak, sistem, sizden başka bir
     <string name="peep_protection_v2_smart_enable_no_strategy_hint">"Henüz kural yok. Xiaomi Hyper XiaoAi'de konum tabanlı akıllı etkinleştirme kuralları oluşturun"</string>
     <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">Henüz hiçbir kural yok. (click)Xiaomi Hyper XiaoAi(click) konum tabanlı akıllı etkinleştirme kuralları oluşturabilirsiniz</string>
     <string name="peep_protection_v2_smart_enable_page_desc">(click)Xiaomi Hyper XiaoAi(/click) cihazında, metroda olduğunuzda cihaz genelinde gizlilik ekranını otomatik olarak açmak gibi konum tabanlı akıllı kurallar ayarlayabilirsiniz. Belirtilen konuma vardığınızda kuralınıza göre gizlilik ekranı açılacaktır</string>
-    <string name="peep_protection_v2_smart_enable_page_desc_v2">"Xiaomi Hyper XiaoAi'nin Pro modunda metroda olduğumda cihaz genelinde gizlilik ekranını otomatik olarak aç gibi konum tabanlı akıllı etkinleştirme kuralları belirleyebilirsiniz. Belirtilen bir konuma vardığınızda kurallarınıza göre gizlilik ekranı otomatik olarak açılacaktır"</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">"Xiaomi Hyper XiaoAi(/click)nin Pro modunda metroda olduğumda cihaz genelinde gizlilik ekranını otomatik olarak aç gibi konum tabanlı akıllı etkinleştirme kuralları belirleyebilirsiniz. Belirtilen bir konuma vardığınızda kurallarınıza göre gizlilik ekranı otomatik olarak açılacaktır"</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v4">Xiaomi Hyper XiaoAi(/click)nin Pro modunda, işe vardığımda tam ekran gizliliği otomatik olarak aç" gibi konuma dayalı akıllı etkinleştirme kuralları belirleyebilirsiniz. Belirlediğiniz bir konuma ulaştığınızda gizlilik görünümü oluşturduğunuz kurallar doğrultusunda otomatik olarak devreye girecektir</string>
     <string name="peep_protection_v2_smart_enable_prompt">Lütfen gizlilik ayarı kuralı oluşturmama yardımcı olun: Telefonumu sık sık metroda ve kafelerde kullanıyorum. Bu senaryolar için kurallar oluşturun ve bu mekanlara vardığımda sosyal ağlar ve finans grupları için gizlilik ayarını otomatik olarak açın</string>
     <string name="peep_protection_v2_smart_enable_prompt_copied">Kopyalama işlemi başarıyla tamamlandı</string>
+    <string name="peep_protection_v2_smart_enable_prompt_v2">Bir gizlilik görüntüleme kuralı oluşturmama yardım et. Ofise %d metre mesafede olduğumda sosyal ağlar grubu için gizlilik görüntülemeyi aç. Ofisten ayrıldığımda ise kapat. Ayrıca içinde galeri ve mesajlaşma uygulamalarının bulunduğu kategori görüntüleme adında bir uygulama grubu oluştur. Bir kafedeyken bu grup için gizlilik görüntülemeyi aç. Kafeden ayrıldığımda ise kapat</string>
     <string name="peep_protection_v2_smart_enable_sio_unavailable">Bu özelliği kullanabilmek için erişime izin verin</string>
     <string name="peep_protection_v2_smart_enable_switch_desc">Senaryoları belirleyin ve gizlilik ekranını otomatik olarak açın veya kapatın</string>
     <string name="peep_protection_v2_smart_enable_wifi_tip">Akıllı kuralların daha doğru şekilde tetiklenmesine yardımcı olmak için wifi ağını açık tutun. Wifi kapalıyken bazı yerler gecikmeli olarak veya hiç tanınmayabilir</string>
