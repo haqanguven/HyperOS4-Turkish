@@ -5395,7 +5395,7 @@ Daha fazla bilgi edinmek için Airtel ile iletişime geçin"</string>
     <string name="fingerprint_password_unlock">Parmak izleri &amp; ekran kilidi</string>
     <string name="fingerprint_payment">Parmak izi ödeme</string>
     <string name="fingerprint_privacy_desc">Özel albümlere, mesajlara, notlara, dosyalara, Xiaomi Hyper XiaoAi hafızasına, uygulama kilidine ve parola yönetim araçlarına erişmek için parmak izinizi kullanabilirsiniz</string>
-    <string name="fingerprint_privacy_policy">Devam etmeden önce <font color="#2E2E2E"><a href="%1$s">Parmak izleri &amp;#038; ekran kilidi gizlilik bildirimini</a> okuyun ve kabul edin</font></string>
+    <string name="fingerprint_privacy_policy"><Data>Devam etmeden önce &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">\"parmak izleri ve ekran kilidi gizlilik bildirimi&lt;/a>&lt;/font> metnini okuyun ve kabul edin</Data></string>
     <string name="fingerprint_protection">Parmak izi koruması</string>
     <string name="fingerprint_record_input">Kaydet</string>
     <string name="fingerprint_removal_failed">Parmak izi kaldırılamadı. Daha sonra tekrar deneyin</string>
@@ -14050,7 +14050,7 @@ Kelime eklemek için artı simgesine dokunun"</string>
     <string name="virtual_device_connected">Bağlandı</string>
     <string name="virtual_device_details_footer_title">%1$s cihazını unutursanız cihaz artık bu telefonla ilişkilendirilmeyecektir. Bazı izinler kaldırılacak ve bazı uygulamalar ve uygulama akışı çalışmayabilir</string>
     <string name="virtual_device_details_title">Cihaz ayrıntıları</string>
-    <string name="virtual_device_disconnected">Bağlantı Kesildi</string>
+    <string name="virtual_device_disconnected">Bağlantı kesildi</string>
     <string name="virtual_device_forget_dialog_body">%1$s cihazı artık bu telefona bağlı olmayacak. Devam ederseniz, bazı uygulamalar ve uygulama akışı çalışmayı durdurabilir</string>
     <string name="virtual_device_forget_dialog_confirm_button">Unut</string>
     <string name="virtual_device_forget_dialog_title">%1$s unutulsun mu?</string>
